@@ -1,9 +1,9 @@
 [info]
-admin_keys = ["HEX key of admin"]
+admin_keys = ["546b4d7f86fe2c1fcc7eb10bf96c2eaef1daa26c67dad348ff0e9c853ffe8882"]
 # api_key = "apikey"
 # api_listen_host = "127.0.0.1"
 # api_listen_port = 3000
-# grpc_listen_host = "127.0.0.1"
-# grpc_listen_port = 50001
+grpc_listen_host = "127.0.0.1"
+grpc_listen_port = 50001
 
-# db_path = "./manage_users.redb"
+db_path = "./manage_users.redb"
