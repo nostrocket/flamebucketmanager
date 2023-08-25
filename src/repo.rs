@@ -123,7 +123,7 @@ mod tests {
             id: vec![],
             pubkey: vec![],
             created_at: 172782,
-            kind: 4242,
+            kind: 15171010,
             content: "".to_string(),
             tags: vec![
                 TagEntry {

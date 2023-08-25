@@ -58,7 +58,7 @@ impl Authorization for EventAuthz {
         // admit event
         if self.settings.info.admin_keys.contains(&author) {
             // I just picked this kind number should maybe put more thought into it, NIP?
-            if event.kind == 4242 {
+            if event.kind == 15171010 {
                 // TODO: Spawn this to not block
                 self.repo
                     .lock()
