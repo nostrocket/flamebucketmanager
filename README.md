@@ -99,7 +99,3 @@ If the relay has nip42 enabled it will use the authenticated pubkey if not the a
 
 ## License 
 Code is under the [BSD 3-Clause License](LICENSE-BSD-3)
-
-## Contact
-
-I can be contacted for comments or questions on nostr at _@thesimplekid.com (npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw) or via email tsk@thesimplekid.com.
