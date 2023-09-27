@@ -1,10 +1,8 @@
 # Flamebucket Manager
-This is a grpc server that uses the Nostrocket Engine to validate current users for the Flamebucket Rocket, which is a set of paid nostr relays.
+This is a grpc authz server that uses the Nostrocket Engine to validate current users for the Flamebucket Rocket, which is a set of paid nostr relays.
 
 Flamebucket Manager should not be used directly, but consumed from the [Flamebucket repo](https://github.com/nostrocket/flamebucket) (as a submodule).
 
-
-## Manage relay users gRPC Server
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
 # gRPC Extensions for nostr-rs-relay
