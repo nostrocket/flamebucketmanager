@@ -1,3 +1,9 @@
+# Flamebucket Manager
+This is a grpc server that uses the Nostrocket Engine to validate current users for the Flamebucket Rocket, which is a set of paid nostr relays.
+
+Flamebucket Manager should not be used directly, but consumed from the [Flamebucket repo](https://github.com/nostrocket/flamebucket) (as a submodule).
+
+
 ## Manage relay users gRPC Server
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
@@ -13,7 +19,7 @@ rustup update
 ```
 2. Clone and compile
 ```
-git clone https://github.com/thesimplekid/manage-relay-users.git
+git clone https://github.com/nostrocket/flamebucketmanager.git
 cd manage-relay-users
 cargo update
 cargo build -r
